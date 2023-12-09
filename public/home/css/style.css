@@ -1,0 +1,48 @@
+ .dd {
+     display: block !important
+ }
+
+ .showimg {
+     margin-left: 3rem !important
+ }
+
+ @media (max-width: 769px) {
+     .dd {
+         display: none !important
+     }
+
+     .showimg {
+         margin-left: 0px !important
+     }
+ }
+
+ .extra {
+     animation: changeBackgroundColor 1.5s infinite;
+ }
+
+ .pro {
+     background-color: #e2b13c !important;
+     color: black !important;
+ }
+
+ @keyframes changeBackgroundColor {
+     0% {
+         background-color: #bf8efa;
+     }
+
+     25% {
+         background-color: #ac6cf8;
+     }
+
+     50% {
+         background-color: #984af7;
+     }
+
+     70% {
+         background-color: #ac6cf8;
+     }
+
+     100% {
+         background-color: #bf8efa;
+     }
+ }
